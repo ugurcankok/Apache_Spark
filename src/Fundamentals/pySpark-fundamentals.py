@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName("Fundamentals").getOrCreate()
 
-file_path = "/src/Spark Demo/files/test1.csv"
+file_path = "/src/files/test1.csv"
 
 #df_spark = spark.read.csv(file_path, header = True)
 
